@@ -9,7 +9,7 @@
     <!-- Remix icons -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- Swiper.js styles -->
-    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/> -->
     <!-- Custom styles -->
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
@@ -49,7 +49,7 @@
         </div>
 
         <div class="list list-right">
-            <button class="btn place-items-center" id="toggle-btn">
+            <button class="btn place-items-center" id="theme-toggle-btn">
                 <i class="ri-sun-line sun-icon"></i>
                 <i class="ri-moon-line moon-icon"></i>
             </button>
@@ -68,7 +68,22 @@
 </header>
 
 <!-- Search -->
+<div class="search-form-container" id="search-form-container">
+    <div class="form-container-inner">
 
+        <form action="" class="form">
+            <input type="text" class="form-input" name="" id="" placeholder="What are you looking for?">
+            <button class="btn form-btn" type="submit">
+                <i class="ri-search-line"></i>
+            </button>
+        </form>
+        <span class="form-note">Or press ESC to close</span>
+    </div>
+
+    <button class="btn form-close-btn place-items-center" id="form-close-btn">
+        <i class="ri-close-line"></i>
+    </button>
+</div>
 <!-- Featured articles -->
 
 <!-- Quick read -->
